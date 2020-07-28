@@ -10,7 +10,7 @@ namespace ConsoleApp
             Console.WriteLine("Добро пожаловать!");
             while(true)
             {
-                //
+                // привет!
                 Random rnd = new Random();
                 int value = rnd.Next(0, 8);
                 Game(value);
